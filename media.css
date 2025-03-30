@@ -1,0 +1,625 @@
+/* Адаптивность для планшетов (768px) */
+@media screen and (max-width: 768px) {
+  .header-content .header {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .header-content .header-links {
+    gap: 20px;
+    font-size: 14px;
+  }
+  .header-content .header-form {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .header-content .header-form .text-search {
+    width: 100%;
+  }
+  .header-content .header-form .input-upload,
+  .header-content .header-form .input-connect {
+    width: 100%;
+  }
+}
+
+/* Адаптивность для смартфонов (320px) */
+@media screen and (max-width: 480px) {
+  .header-content .header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-content .header-logo {
+    font-size: 1.2rem;
+  }
+  .header-content .header-links {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  .header-content .header-form {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .header-content .header-form .text-search {
+    width: 90%;
+  }
+  .header-content .header-form .input-upload,
+  .header-content .header-form .input-connect {
+    width: 90%;
+    padding: 15px;
+  }
+}
+/* Адаптивность для планшетов (768px) */
+@media screen and (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .hero-container .leftSide-desc {
+    max-width: 100%;
+  }
+  .hero-container .leftSide-desc .desc-heading {
+    font-size: 32px;
+  }
+  .hero-container .leftSide-desc .desc-text {
+    max-width: 100%;
+    font-size: 18px;
+  }
+  .hero-container .leftSide-desc .exploreNow {
+    width: 180px;
+    height: 55px;
+    font-size: 18px;
+  }
+  .hero-container .rightSide-images {
+    width: 90%;
+    height: auto;
+  }
+  .hero-container .rightSide-images .img-descr {
+    transform: translate(0, -380px);
+  }
+  .hero-container .rightSide-images .img-descr .descr-heading {
+    font-size: 24px;
+    transform: translate(0, 0);
+  }
+  .hero-container .rightSide-images .img-descr .text {
+    font-size: 16px;
+    transform: translate(0, 0);
+  }
+  .hero-container .rightSide-images .img-descr .highest-bid {
+    transform: translate(0, 0);
+    width: 100%;
+  }
+}
+
+/* Адаптивность для смартфонов (320px) */
+@media screen and (max-width: 480px) {
+  .hero-container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .hero-container .leftSide-desc .desc-heading {
+    font-size: 24px;
+  }
+  .hero-container .leftSide-desc .desc-text {
+    font-size: 16px;
+  }
+  .hero-container .leftSide-desc .exploreNow {
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+  }
+  .hero-container .rightSide-images {
+    width: 100%;
+  }
+  .hero-container .rightSide-images .img-descr {
+    transform: translate(0, -300px);
+  }
+  .hero-container .rightSide-images .img-descr .descr-heading {
+    font-size: 20px;
+  }
+  .hero-container .rightSide-images .img-descr .text {
+    font-size: 14px;
+  }
+  .hero-container .rightSide-images .img-descr .highest-bid {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+  }
+}
+/* Адаптивность для планшетов (макс. ширина 768px) */
+@media screen and (max-width: 768px) {
+  .amazeNFT {
+    padding: 50px 0;
+  }
+  .amazeNFT-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .amazeNFT-container .amaze_heading {
+    width: 100%;
+    font-size: 24px;
+    transform: translate(0, 20px);
+  }
+  .amazeNFT-container .amaze_desc .desc-heading {
+    font-size: 18px;
+    transform: translate(0, 10px);
+  }
+  .amazeNFT-container .amaze_desc .desc-text {
+    font-size: 16px;
+    transform: translate(0, 0);
+    padding-left: 0;
+  }
+  .amazeNFT-container .fast, 
+  .amazeNFT-container .growth {
+    width: 80%;
+    transform: translate(0, 20px);
+  }
+}
+
+/* Адаптивность для смартфонов (макс. ширина 480px) */
+@media screen and (max-width: 480px) {
+  .amazeNFT {
+    padding: 30px 0;
+  }
+  .amazeNFT-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .amazeNFT-container .amaze_heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+    transform: translate(0, 10px);
+  }
+  .amazeNFT-container .amaze_desc .desc-heading {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .amazeNFT-container .amaze_desc .desc-text {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 0;
+    transform: translate(0, 0);
+  }
+  .amazeNFT-container .fast, 
+  .amazeNFT-container .growth {
+    width: 100%;
+    transform: translate(0, 10px);
+  }
+}
+/* Адаптивность для планшетов (макс. ширина 768px) */
+@media screen and (max-width: 768px) {
+  #section-4 {
+    padding: 50px 0 80px 0;
+  }
+
+  .section-4 {
+    width: 90%;
+  }
+
+  .section-4-header {
+    font-size: 24px;
+    text-align: center;
+    transform: translate(0, 50px);
+  }
+
+  #grid {
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .grid-item-1,
+  .grid-item-2 {
+    transform: translate(0, 0);
+  }
+
+  .group {
+    gap: 5px;
+    transform: translate(0, 0);
+  }
+
+  .bottom {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .bottom .text {
+    font-size: 18px;
+    transform: translate(0, 40px);
+  }
+
+  .total {
+    font-size: 10px;
+    padding: 5px;
+    width: 80px;
+    transform: translate(0, 20px);
+  }
+}
+
+/* Адаптивность для смартфонов (макс. ширина 480px) */
+@media screen and (max-width: 480px) {
+  #section-4 {
+    padding: 30px 0 60px 0;
+  }
+
+  .section-4 {
+    width: 100%;
+  }
+
+  .section-4-header {
+    font-size: 20px;
+    text-align: center;
+    transform: translate(0, 40px);
+  }
+
+  #grid {
+    grid-template-columns: auto;
+    margin-top: 30px;
+  }
+
+  .grid-item-1,
+  .grid-item-2 {
+    transform: translate(0, 0);
+  }
+
+  .group {
+    gap: 10px;
+    transform: translate(0, 0);
+  }
+
+  .bottom {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .bottom .text {
+    font-size: 16px;
+    transform: translate(0, 20px);
+  }
+
+  .total {
+    font-size: 9px;
+    width: 70px;
+    transform: translate(0, 10px);
+  }
+}
+/* Адаптивность для планшетов (макс. ширина 768px) */
+@media screen and (max-width: 768px) {
+  .discover {
+    width: 90%;
+    margin-top: 4%;
+    margin-bottom: 10%;
+  }
+
+  .section-5-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .explanation {
+    width: 80%;
+    text-align: center;
+  }
+
+  .h1 {
+    font-size: 24px;
+    transform: translate(0, 20px);
+  }
+
+  .create p {
+    font-size: 16px;
+    transform: translate(0, 20px);
+  }
+
+  .button {
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+    transform: translate(0, 20px);
+  }
+}
+
+/* Адаптивность для смартфонов (макс. ширина 480px) */
+@media screen and (max-width: 480px) {
+  .discover {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+  }
+
+  .section-5-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .explanation {
+    width: 90%;
+    text-align: center;
+  }
+
+  .h1 {
+    font-size: 20px;
+    transform: translate(0, 15px);
+  }
+
+  .create p {
+    font-size: 14px;
+    transform: translate(0, 15px);
+  }
+
+  .button {
+    width: 150px;
+    height: 45px;
+    font-size: 16px;
+    transform: translate(0, 15px);
+  }
+}
+/* Адаптивность для планшетов (макс. ширина 768px) */
+@media screen and (max-width: 768px) {
+  .discoverNFT {
+    transform: translateY(200px);
+  }
+
+  .discoverNFT-container {
+    max-width: 90%;
+  }
+
+  .discoverNFT-container .discover-heading {
+    font-size: 1.75rem;
+    padding-top: 50px;
+  }
+
+  .discoverNFT-container .discover-filter {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .discoverNFT-container .discover-filter .filter-item {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  .discoverNFT-container .nft-list {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+  }
+
+  .discoverNFT-container .nft-list .nft-item {
+    max-width: 100%;
+  }
+
+  .discoverNFT-container .nft-list .nft-item .item-image {
+    height: 200px;
+  }
+
+  .discoverNFT-container .nft-list .nft-item .item-nftName {
+    font-size: 1rem;
+    margin: 15px 0 10px 15px;
+  }
+
+  .discoverNFT-container .nft-list .nft-item .item-evaluation .nftValue {
+    font-size: 0.6rem;
+  }
+
+  .discoverNFT-container .nft-list .nft-item .item-evaluation .nftTotal {
+    font-size: 0.75rem;
+  }
+
+  .discoverNFT-container .nft-list .nft-item .item-bet .leftTime {
+    font-size: 0.6rem;
+  }
+
+  .discoverNFT-container .showMoreNft {
+    width: 80%;
+    font-size: 1.1rem;
+    left: 10%;
+    margin-top: 40px;
+  }
+}
+
+/* Адаптивность для смартфонов (макс. ширина 480px) */
+@media screen and (max-width: 480px) {
+  .discoverNFT {
+    transform: translateY(150px);
+  }
+
+  .discoverNFT-container {
+    max-width: 100%;
+  }
+
+  .discoverNFT-container .discover-heading {
+    font-size: 1.5rem;
+    padding-top: 40px;
+  }
+
+  .discoverNFT-container .discover-filter {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .discoverNFT-container .discover-filter .filter-item {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+
+  .discoverNFT-container .nft-list {
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+  }
+
+  .discoverNFT-container .nft-list .nft-item {
+    max-width: 100%;
+  }
+
+  .discoverNFT-container .nft-list .nft-item .item-image {
+    height: 180px;
+  }
+
+  .discoverNFT-container .nft-list .nft-item .item-nftName {
+    font-size: 0.9rem;
+    margin: 10px 0 5px 10px;
+  }
+
+  .discoverNFT-container .nft-list .nft-item .item-evaluation .nftValue {
+    font-size: 0.55rem;
+  }
+
+  .discoverNFT-container .nft-list .nft-item .item-evaluation .nftTotal {
+    font-size: 0.7rem;
+  }
+
+  .discoverNFT-container .nft-list .nft-item .item-bet .leftTime {
+    font-size: 0.5rem;
+  }
+
+  .discoverNFT-container .showMoreNft {
+    width: 85%;
+    font-size: 1rem;
+    left: 7%;
+    margin-top: 30px;
+  }
+}
+/* Адаптивность для планшетов (макс. ширина 768px) */
+@media screen and (max-width: 768px) {
+  .footer-nav {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    transform: translateY(150px);
+  }
+
+  .footer-nav .nav-marketplaceDesc,
+  .footer-nav .nav-marketPlace,
+  .footer-nav .nav-myAccount {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-nav .nav-marketplaceDesc .desc-heading,
+  .footer-nav .nav-marketPlace .marketPlace-heading,
+  .footer-nav .nav-myAccount .myAccount-heading {
+    font-size: 1.2rem;
+  }
+
+  .footer-nav .nav-subscr {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .footer-nav .nav-subscr .heading {
+    font-size: 1.2rem;
+  }
+
+  .footer-nav .nav-subscr .subscr-text {
+    font-size: 0.9rem;
+  }
+
+  .footer-nav .nav-subscr .input-content {
+    width: 90%;
+    position: relative;
+    margin: 10px auto;
+  }
+
+  .footer-nav .nav-subscr .input-content .input-text {
+    padding: 15px 15px;
+    width: 100%;
+    border-radius: 30px;
+  }
+
+  .footer-nav .nav-subscr .input-content .input-btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 30px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+
+  .footer-copyright {
+    font-size: 0.75rem;
+    margin-top: 20px;
+    transform: translateY(60px);
+  }
+}
+
+/* Адаптивность для смартфонов (макс. ширина 480px) */
+@media screen and (max-width: 480px) {
+  .footer-nav {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    transform: translateY(100px);
+  }
+
+  .footer-nav .nav-marketplaceDesc,
+  .footer-nav .nav-marketPlace,
+  .footer-nav .nav-myAccount {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-nav .nav-marketplaceDesc .desc-heading,
+  .footer-nav .nav-marketPlace .marketPlace-heading,
+  .footer-nav .nav-myAccount .myAccount-heading {
+    font-size: 1rem;
+  }
+
+  .footer-nav .nav-subscr {
+    width: 90%;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .footer-nav .nav-subscr .heading {
+    font-size: 1rem;
+  }
+
+  .footer-nav .nav-subscr .subscr-text {
+    font-size: 0.85rem;
+  }
+
+  .footer-nav .nav-subscr .input-content {
+    width: 100%;
+    position: relative;
+    margin: 10px auto;
+  }
+
+  .footer-nav .nav-subscr .input-content .input-text {
+    padding: 12px 12px;
+    width: 100%;
+    border-radius: 30px;
+  }
+
+  .footer-nav .nav-subscr .input-content .input-btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 30px;
+    margin-top: 10px;
+    font-size: 0.85rem;
+  }
+
+  .footer-copyright {
+    font-size: 0.7rem;
+    margin-top: 20px;
+    transform: translateY(40px);
+  }
+}
